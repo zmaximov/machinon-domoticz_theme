@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 		$('head').append('<link rel="stylesheet" href="/acttheme/css/xmas.css" type="text/css" />');
 		$('body').append('<div class="santa"><img src="images/christmas-sled-source_ulp.gif" alt="" /></div>');
-		$(document).snowfall({flakeCount : 300, maxSpeed : 5, maxSize : 5});
+		$(document).snowfall({flakeCount : 150, maxSpeed : 5, maxSize : 5});
 		if (window.innerWidth > 767){
 		    $('body').append('<div class="xmas-tree"><img src="images/Animated_Xmas-tree-animation.gif" alt=""></div>');         
 		}

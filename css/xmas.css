@@ -10,25 +10,6 @@ bottom: 10px;
 right: -500px;
 }
 /* Snowy devices */
-.item {
-	-webkit-box-sizing:border-box;
-	   -moz-box-sizing:border-box;
-	        box-sizing:border-box;
-	outline: none;
-	border: 1px solid #4c0300;
-	box-shadow:
-		inset 1px 1px 0px rgba(255,255,255,0.25), /* highlight */
-		inset 0 0 6px #a23227, /* inner glow */
-		inset 0 80px 80px -40px #ac3223, /* gradient */
-		1px 1px 3px rgba(0,0,0,0.75); /* shadow */
-	position: relative;
-	overflow: visible; /* IE9 & 10 */
-	-webkit-transition: 500ms linear;
-	   -moz-transition: 500ms linear;
-	     -o-transition: 500ms linear;
-					transition: 500ms linear;
-}
-
 .item::before {
 	content: '';
 	display: block;

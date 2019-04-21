@@ -264,7 +264,7 @@ input[type="text"]{
   display: block;
   width: 40px;
   height: 20px;
-  top: 20px;
+  top: 10%;
   right: 30px;
 }
 .switch input {
@@ -405,6 +405,9 @@ div.bannercontent .row.divider{
   left: 5%;
   line-height: 20px;
   max-width: 60%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 @media (min-width: 1200px) {
@@ -420,6 +423,10 @@ div.bannercontent .row.divider{
   position: absolute;
   top: 10%;
   right: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 50%;
 }
 
 @media (min-width: 980px) {
@@ -452,7 +459,7 @@ dzweatherwidget .item #lastupdate {
   /*! right: 20px; */
   /*! top: 60px; */
   text-align: right;
-  padding: 0 20px;
+  padding: 0 12px;
 }
 
 .item #status,
